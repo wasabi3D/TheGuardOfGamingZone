@@ -42,7 +42,7 @@ public class BotKernel extends ListenerAdapter {
 
     public static void main(String[] args) throws LoginException {
 
-        JDA jda = JDABuilder.createDefault("Nzc5MDQwOTE4MzUxMTE4MzU3.X7awZA.MDXG72Onp3I9YJ3IksIJdAYXqtQ").addEventListeners(new BotKernel()).build();
+        JDA jda = JDABuilder.createDefault("...").addEventListeners(new BotKernel()).build();
 
         //antispam
         antispam = new Antispam();
